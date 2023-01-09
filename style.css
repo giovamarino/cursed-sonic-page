@@ -1,0 +1,180 @@
+* {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+  background-image: url(/img/sanic.jpg);
+  background-repeat: repeat;
+  background-size: 10% auto;
+}
+
+marquee {
+  padding: 3px;
+}
+
+#marquee1 {
+  background-color: rgb(141, 255, 131);
+  font-family: "Shadows Into Light", cursive;
+}
+
+#marquee2 {
+  background-color: lawngreen;
+}
+
+#marquee3 {
+  background-color: greenyellow;
+  position: absolute;
+  z-index: 1;
+  top: 420px;
+  left: 0px;
+}
+
+iframe {
+  margin-bottom: 20px;
+}
+
+#knuckles {
+  width: 350px;
+  animation: rotation 120s infinite linear;
+  z-index: 2;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#knuckle {
+  position: fixed;
+  top: 8%;
+  left: 32%;
+  color: cornflowerblue;
+  font-size: 25px;
+  background-color: crimson;
+}
+
+#sonicMovieBanner {
+  position: fixed;
+  width: 300px;
+  height: 400px;
+  margin-left: 80px;
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+#sonicFallGuy {
+  height: 270px;
+  position: fixed;
+}
+
+#signs {
+  position: fixed;
+  top: 70px;
+  right: 0px;
+  font-size: 30px;
+  /* background-color: aliceblue; */
+  width: 600px;
+}
+
+#sonicc {
+  position: fixed;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+/* ------------------ */
+#bottomRow {
+  display: flex;
+  flex-direction: row;
+}
+
+#yoshiContainer {
+  width: 400px;
+  background-color: khaki;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#yoshiFlex {
+  display: flex;
+}
+
+#yoshi {
+  width: 200px;
+}
+
+#yoshi2 {
+  width: 100%;
+}
+
+#yoshiScreenshot {
+  width: 100%;
+}
+
+#yoshiContainer p {
+  color: indigo;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#hedgehogContainer {
+  margin-top: 35px;
+  /* margin-left: 30px; */
+  background-color: cyan;
+  width: 300px;
+  height: 0%;
+}
+
+#hedgehog {
+  width: 100%;
+}
+
+#hedgehogContainer p {
+  margin: 0px;
+  font-size: 30px;
+}
+
+#sonicFrontiers {
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+}
+
+#sonicFrontiersText {
+  font-family: "Audiowide", cursive;
+  position: fixed;
+  color: rgb(234, 253, 253);
+  right: 75px;
+  bottom: 135px;
+  font-size: 20px;
+}
+
+#history {
+  font-family: "Six Caps", sans-serif;
+  background-color: lavender;
+  width: 400px;
+  height: 200px;
+  margin-left: 35px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+#acceptButton {
+  position: fixed;
+  left: 915px;
+  bottom: 25px;
+}
+
+button {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+
+#sephiroth {
+  margin-left: 0px;
+  height: 80%;
+  width: 500px;
+}
