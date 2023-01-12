@@ -1,20 +1,25 @@
-// window.onload = () => {
-//     alert("Welcome!!!");
-// }
+function repeatAlert() {
+  setInterval(() => {
+    alert("Welcome!!!");
+  }, 3000);
+}
 
-// let intervalID;
+let modalBackground = document.getElementById("modalBackground");
 
-// function repeatEverySecond() {
-//   intervalID = setInterval(sendMessage, 5000);
-// }
+function vBucks() {
+  setInterval(() => {
+    modalBackground.style.display = "block";
+    clickOffModal();
+  }, 45000);
+}
 
-// function sendMessage() {
-//     alert("Welcome!!!")
-//   console.log("One second elapsed");
-// }
+let clickOffModal = () => {
+  if (modalBackground.style.display === "block") {
+    modalBackground.addEventListener("click", () => {
+      modalBackground.style.display = "none";
+    });
+  }
+};
 
-// repeatEverySecond()
-
-// setInterval(alert("Welcome!!!"), 500)
-
-// setInterval(alert("Welcome!!!"), 100)
+repeatAlert();
+vBucks();
