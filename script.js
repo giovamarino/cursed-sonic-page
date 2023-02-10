@@ -10,7 +10,7 @@ function vBucks() {
   setInterval(() => {
     modalBackground.style.display = "block";
     clickOffModal();
-  }, 45000);
+  }, 110000);
 }
 
 let clickOffModal = () => {
